@@ -62,31 +62,6 @@ Make sure you have the following installed:
    flutter build ios --release
    ```
 
-## 📁 Project Structure
-
-```
-lib/
-├── main.dart                 # App entry point
-├── screens/
-│   ├── home_screen.dart      # Main dice rolling interface
-│   ├── settings_screen.dart  # App settings and preferences
-│   └── history_screen.dart   # Roll history display
-├── widgets/
-│   ├── dice_widget.dart      # Animated dice component
-│   ├── roll_button.dart      # Custom roll button
-│   └── history_tile.dart     # History list item
-├── models/
-│   ├── dice.dart            # Dice data model
-│   └── roll_result.dart     # Roll result model
-├── services/
-│   ├── dice_service.dart    # Dice rolling logic
-│   ├── sound_service.dart   # Sound effects handler
-│   └── storage_service.dart # Local storage for history
-└── utils/
-    ├── constants.dart       # App constants
-    └── animations.dart      # Custom animations
-```
-
 ## 🎯 How to Use
 
 1. **Launch the App**: Open the dice roll app on your device
@@ -94,42 +69,12 @@ lib/
 3. **Roll the Dice**: 
    - Tap the "Roll Dice" button, or
    - Shake your device (if enabled in settings)
-4. **View Results**: See the animated roll and final numbers
-5. **Check History**: Review previous rolls in the history section
-6. **Customize**: Access settings to change dice colors, sounds, etc.
 
 ## 🛠️ Built With
 
 - **Flutter** - Cross-platform mobile development framework
 - **Dart** - Programming language
 - **Material Design** - UI components and design system
-- **SharedPreferences** - Local data storage for settings and history
-- **Sensors Plus** - Device motion detection for shake-to-roll
-- **AudioPlayers** - Sound effects playback
-
-## 🎨 Features in Detail
-
-### Dice Animation
-- Smooth rotation and scaling effects
-- Realistic physics simulation
-- Multiple animation styles available
-
-### Sound System
-- Dice rolling sound effects
-- Success/celebration sounds
-- Volume control and mute option
-
-### History Management
-- Save up to 100 recent rolls
-- Filter by dice count or date
-- Export history data
-- Clear history option
-
-### Customization Options
-- Multiple dice themes and colors
-- Animation speed control
-- Sound on/off toggle
-- Vibration feedback settings
 
 ## 🔧 Configuration
 
@@ -147,18 +92,6 @@ assets/
         ├── dice_4.png
         ├── dice_5.png
         └── dice_6.png
-```
-
-### Customizing Sounds
-
-Add custom sound files to `assets/sounds/`:
-
-```
-assets/
-└── sounds/
-    ├── dice_roll.mp3
-    ├── dice_land.mp3
-    └── success.mp3
 ```
 
 ## 🧪 Testing
