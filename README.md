@@ -155,15 +155,10 @@ Found a bug? Please create an issue with:
 - Expected vs actual behavior
 - Screenshots or videos if applicable
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 **Jay Bhakre**
 - GitHub: [@jaybhakre](https://github.com/jaybhakre)
-- Email: [Your Email] (optional)
 
 ## 🙏 Acknowledgments
 
